@@ -3,7 +3,7 @@ import threading
 from datetime import datetime
 from playsound import playsound
 import time  # Добавлено для работы с временными метками
-from support import enable_audit_policies
+from Support import enable_audit_policies
 
 def play_alert_sound(sound_to_play: str) -> None:
     """Воспроизвести звуковой файл."""
